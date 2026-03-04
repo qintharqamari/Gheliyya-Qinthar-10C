@@ -1,16 +1,14 @@
 body {
-  background-color: rgb(161, 209, 208);
-  font-family: Arial, sans-serif;
-  color: #07040f;
-  margin: 20px;
+background-color:rgb(161, 209, 208);
+font-family: Arial, sans-serif;
+color: #07040f;
+margin: 20px;
 }
-
 h1 {
-  color: #124049;
-  text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
+color: #124049;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 h2 {
 color: #265857;
 text-align: left;
@@ -56,80 +54,3 @@ line-height: 1.5;
     font-size: 14px;
     color: #555 
     }
-.artikel{
-    max-width:  700px;
-    margin: auto;
-    padding: 20px;
-    background-color: #fdfdfd;
-    font-family: 'Georgia', serif;
-    line-height: 1.8;
-}
-.artikel .penulis{
-    font-style: italic;
-    color: #666;
-    margin-bottom: 20px;
-}
-.artikel .sampul{
-    width: 180px;
-    float: right;
-    margin: 0 0 20px 20px;
-    border: 1px solid #ccc;
-    box-shadow:  2px 2px 6px rgba(0, 0, 0, 0.1);
-} 
-.artikel blockquote{
-     font-style: italic;
-     padding-left: 20px 0;
-     border-left: 4px solid #999;
-     color: #444;
-     background-color: #f9f9f9;
-}
-.btn-kembali{
-    display: inline-block;
-    margin-top: 30px;
-    padding: 10px 16px;
-    background-color: #0066cc;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-}
-.btn-kembali :hover{
-    background-color: #004d99;
-}
-
-.formulir {
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    background-color: #fafafa;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-form label{
-    display: block;
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-form input,
-form select,
-form textarea{
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-form button{
-    background-color: #3498db;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover{
-    background-color: #2980b9;
-}
